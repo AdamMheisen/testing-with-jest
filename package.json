@@ -21,10 +21,14 @@
     "test": "jest tests"
   },
   "dependencies": {
+    "geckodriver": "^6.1.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.44.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^14.0.0",
+    "jest": "^30.4.2",
     "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2"
   }
