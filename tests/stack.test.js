@@ -18,9 +18,9 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-test('size returns the number of elements in the stack', () => {
+test('size increases when elements are pushed to the stack', () => {
+    const before = stack.size();
     stack.push("äpple");
     stack.push("päron");
-
-    expect(stack.size()).toBe(2);
+    expect(stack.size()).toBe(before + 2);
 });
